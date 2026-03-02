@@ -15,7 +15,15 @@
         </div>
         <div class="balance-card">
           <span>Your Balance</span>
-          <strong>$5,000</strong>
+          <strong id="user-balance">$0</strong>
+        </div>
+        <div class="auth-controls">
+          <form id="auth-form">
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <button type="submit" id="auth-submit">Login</button>
+          </form>
+          <button id="logout-btn" style="display: none;">Logout</button>
         </div>
       </header>
 
